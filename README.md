@@ -1,16 +1,4 @@
-<p align="center">
-<p>A TypeScript seed project originally generated with</p>
-  <a href="http://fountainjs.io/">
-    <img alt="FountainJS" src="http://fountainjs.io/assets/imgs/fountain.png" width="200">
-  </a>
-</p>
-
-# Fountain Webapp Generator
-[![Build Status](https://travis-ci.org/FountainJS/generator-fountain-webapp.svg?branch=master)](https://travis-ci.org/FountainJS/generator-fountain-webapp)
-[![codecov](https://codecov.io/gh/FountainJS/generator-fountain-webapp/branch/master/graph/badge.svg)](https://codecov.io/gh/FountainJS/generator-fountain-webapp)
-[![Slack](http://slackin.fountainjs.io/badge.svg)](http://slackin.fountainjs.io/)
-[![OpenCollective Backers][backer-badge]][backer-url]
-[![OpenCollective Sponsors][sponsor-badge]][sponsor-url]
+<p>A TypeScript seed project originally generated with <a href="https://github.com/FountainJS/generator-fountain-webapp"><Fountain Webapp Generator</a>/p>
 
 ### Usage
 
