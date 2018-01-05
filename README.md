@@ -1,4 +1,5 @@
-<p>A TypeScript seed project originally generated with <a href="https://github.com/FountainJS/generator-fountain-webapp"><Fountain Webapp Generator</a>/p>
+<p>A TypeScript seed project originally generated with 
+<a href="https://github.com/FountainJS/generator-fountain-webapp">Fountain Webapp Generator</a></p>
 
 ### Usage
 
