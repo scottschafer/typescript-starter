@@ -18,7 +18,7 @@ export class Race {
     this.reset();
 
     this.runningInterval = window.setInterval(() => {
-      var winner = this.runForSeconds(Race.INTERVAL_MS / 1000);
+      let winner: IRacer = this.runForSeconds(Race.INTERVAL_MS / 1000);
       // if there's a winner, stop the race
       if (winner) {
         this.stop();
@@ -40,10 +40,10 @@ export class Race {
   /**
    * race for 'seconds', returning the winning racer if they are past the finish line
    */
-  private runForSeconds(seconds) {
+  private runForSeconds(seconds:number) {
     var winner;
 
-    this.racers.forEach(function(racer) {
+    this.racers.forEach((racer:IRacer) => {
       // let the racer race
       racer.race(seconds);
       // position the racer
@@ -63,7 +63,7 @@ export class Race {
    * Set the winner of the race
    * @param {*} winner 
    */
-  private setWinner(winner) {
+  private setWinner(winner:IRacer) {
     $('#winner').html('Winner: ' + winner.name);
   }
 
