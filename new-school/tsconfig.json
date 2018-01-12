@@ -7,7 +7,10 @@
     "noImplicitAny": false,
     "typeRoots": ["node_modules/@types/"],
     "types": [
+      "angular",
+      "angular-mocks",
       "jquery",
+      "node",
       "jasmine",
       "es6-shim"
     ]
@@ -16,7 +19,6 @@
   "filesGlob": [
     "src/**/*.ts",
     "src/**/*.tsx",
-    "!bower_components/**",
     "!node_modules/**"
   ]
 }
