@@ -1,5 +1,3 @@
-// https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS
-
 function Horse(name, age, imageUrl, accelerationMetersPerSec, maximumSpeedMetersPerSec) {
   
   // properties of this horse

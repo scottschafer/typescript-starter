@@ -1,10 +1,13 @@
-var racers = [
+import { IRacer } from './iRacer';
+import { Horse } from './horse';
+
+export const racers: Array<IRacer> = [
   
   new Horse("Trigger",
     10,
     "https://www.purinamills.com/2.purinamills.com/media/Images/MasterBrand/Lifestages/horse-special-needs.png?ext=.png",
     3,
-    10),
+    7),
 
   new Horse("Mr. Ed",
     11,
@@ -15,6 +18,6 @@ var racers = [
   new Horse("Slowpoke",
     12,
     "http://www.freepngimg.com/download/horse/3-2-horse-png-7.png",
-    1,
-    2)
+    1.2,
+    3)
 ];
